@@ -79,4 +79,11 @@ ul {
   background-color: red;
   padding: 2px 5px;
   cursor: pointer;
+  color: white;
+  border: 1px solid white;
+}
+.book > li > button:hover {
+  background-color: white;
+  color: red;
+  border: 1px solid red;
 }

@@ -14,7 +14,7 @@ function Book({ item }) {
         <li>{item.author}</li>
         <li>{item.rating}</li>
         <li>
-          <button onClick={clickHandle}>X</button>
+          <button onClick={clickHandle}>Delete</button>
         </li>
       </ul>
     </Fragment>
