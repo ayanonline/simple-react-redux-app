@@ -75,7 +75,7 @@ function AddBook() {
       />
       <h3>Rating</h3>
       <input
-        type="text"
+        type="number"
         name=""
         onChange={ratingInputHandler}
         value={book.rating}
